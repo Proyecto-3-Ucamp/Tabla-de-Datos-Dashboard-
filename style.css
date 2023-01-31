@@ -1,0 +1,160 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+  color: #DCAD00;
+}
+
+
+
+
+/* HEADER -------------------------------------------------------*/
+nav{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 99;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row ;
+}
+
+li {
+  list-style: none;
+  padding-left:20px ;
+}
+
+
+.items-nav{
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.h4-nav {
+    color: #DCAD00;
+    margin: 0%;
+}
+
+
+/* MAIN --------------------------------------------------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-image: url(./imgcrito.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* CARD---- */
+.card {
+    font-weight: 500;
+    margin: 60px;
+    padding: 1rem;
+    height: auto;
+    width: auto;
+    color: black;
+    background-color: rgb(253, 253, 253, 0.8);
+    
+
+    
+    
+    
+}
+
+
+
+span {
+    font-weight: bold;
+}
+
+.canvas {
+    border: 2px solid white;
+}
+
+/* FOOTER ---------------------------------------------------------*/
+.footer {
+    width: 100%;
+    padding-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.5);
+    
+    bottom: 0px;
+  }
+  .footer ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .footer li a {
+    margin: 0.625rem;
+    color: inherit;
+  }
+  
+  .footer .copyright li {
+    margin: 0.625rem;
+    font-size: 0.8rem;
+  }
+
+  footer li a i {
+    font-size: 1.1rem;
+  }
+  
+  #github:hover {
+    color: white;
+  }
+
+  .img{
+   width: 3.125rem;
+   height: 3.125rem;
+   border-radius: 25rem;
+
+  }
+
+.burguesa{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #burger{
+    display: none;
+  }
+
+  @media (max-width: 852px){
+    .burguesa{
+      display: block;
+    }
+  }
+
+  
+
+  
