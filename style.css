@@ -1,163 +1,148 @@
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-
-a:hover{
-  color: #DCAD00;
-}
-
-
-
 
 /* HEADER -------------------------------------------------------*/
-nav{
-    position: fixed;
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 99;
+nav {
+  position: fixed;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: baseline;
-    margin: 5%;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 5%;
 }
 
 ul {
   display: flex;
-  flex-direction: row ;
+  flex-direction: row;
 }
 
 li {
   list-style: none;
-  padding-left:20px ;
+  padding-left: 20px;
 }
 
-
-.items-nav{
-    font-weight: bold;
-    font-size: 0.9rem;
-    color: white;
+.items-nav {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: white;
 }
 
 .h4-nav {
-    color: #DCAD00;
-    margin: 0%;
+  color: #dcad00;
+  margin: 0%;
 }
 
-
 /* MAIN --------------------------------------------------------------*/
-main{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    background-image: url(./imgcrito.jpeg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+main {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-image: url(./imgcrito.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 /* CARD---- */
 .card {
-    font-weight: 500;
-    margin: 60px;
-    padding: 1rem;
-    height: auto;
-    width: auto;
-    color: black;
-    background-color: rgb(253, 253, 253, 0.8);
-    
-
-    
-    
-    
+  font-weight: 500;
+  margin: 60px;
+  padding: 1rem;
+  height: auto;
+  width: auto;
+  color: black;
+  background-color: rgb(253, 253, 253, 0.8);
 }
 
-
-
 span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .canvas {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 /* FOOTER ---------------------------------------------------------*/
 .footer {
-    width: 100%;
-    padding-top: 1rem;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: rgba(255, 255, 255, 0.5);
-    /* el position:fixed es para visualizar el footer antes 
+  width: 100%;
+  padding-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.5);
+  /* el position:fixed es para visualizar el footer antes 
     y no tener que bajar hasta abajo del todo NO TOCAR PORFAVOR
     ↓↓↓↓ */
-    position: fixed;
-    bottom: 0px;
-  }
-  .footer ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  .footer li a {
-    margin: 0.625rem;
-    color: inherit;
-  }
-  
-  .footer .copyright li {
-    margin: 0.625rem;
-    font-size: 0.8rem;
-  }
+  position: fixed;
+  bottom: 0px;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+}
 
-  footer li a i {
-    font-size: 1.1rem;
+.icons {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+
+li a {
+  color: inherit;
+}
+li a:hover {
+  color: inherit;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+}
+
+#github:hover {
+  color: white;
+}
+
+.img {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 25rem;
+}
+
+.burguesa {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#burger {
+  display: none;
+}
+
+@media (max-width: 852px) {
+  .burguesa {
+    display: block;
   }
-  
-  #github:hover {
-    color: white;
-  }
-
-  .img{
-   width: 3.125rem;
-   height: 3.125rem;
-   border-radius: 25rem;
-
-  }
-
-.burguesa{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
-
-  #burger{
-    display: none;
-  }
-
-  @media (max-width: 852px){
-    .burguesa{
-      display: block;
-    }
-  }
-
-  
-
-  
+}
