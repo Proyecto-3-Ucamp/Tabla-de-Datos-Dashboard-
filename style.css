@@ -1,23 +1,28 @@
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
 
-/* HEADER -------------------------------------------------------*/
-nav {
+
+/*--- Header styles ---*/
+
+.header__navigation{
+  display: flex;
   position: fixed;
+  align-items: center;
+  background-color: white;
+  z-index: 99;
   height: auto;
   width: 100%;
-  display: flex;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 99;
 }
+
+.navbar{
+  align-items: center;
+}
+
 
 .container {
   display: flex;
@@ -61,6 +66,7 @@ main {
 }
 
 /* CARD---- */
+
 .card {
   font-weight: 500;
   margin: 60px;
@@ -80,6 +86,7 @@ span {
 }
 
 /* FOOTER ---------------------------------------------------------*/
+
 .footer {
   width: 100%;
   padding-top: 1rem;
