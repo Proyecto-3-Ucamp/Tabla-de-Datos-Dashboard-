@@ -12,48 +12,50 @@
 .header__navigation{
   display: flex;
   position: fixed;
-  align-items: center;
-  background-color: white;
   z-index: 99;
+  justify-content: space-around;
+  background-color: white;
   height: auto;
   width: 100%;
 }
 
+.header__logo{
+  margin-top: 10px;
+  font-size: 1.4em;
+}
+
+.header__logo span{
+  font-size: 1em; 
+}
+
 .navbar{
-  align-items: center;
+  margin-top: 10px;
 }
 
-
-.container {
+.navbar__items {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline;
-  margin: 5%;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-}
-
-li {
   list-style: none;
+}
+
+.navbar__link {
   padding-left: 20px;
+  text-decoration: none;
+  justify-content: space-between;
 }
 
-.items-nav {
-  font-weight: bold;
-  font-size: 0.9rem;
-  color: white;
+.navbar__bars {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  display: none;
 }
 
-.h4-nav {
-  color: #dcad00;
-  margin: 0%;
-}
 
-/* MAIN --------------------------------------------------------------*/
+/*--- Main styles ---*/
+
 main {
   display: flex;
   flex-direction: column;
@@ -85,19 +87,18 @@ span {
   border: 2px solid white;
 }
 
-/* FOOTER ---------------------------------------------------------*/
+/*--- Footer styles ---*/
+
 
 .footer {
   width: 100%;
   padding-top: 1rem;
   background-color: rgba(0, 0, 0, 0.8);
   color: rgba(255, 255, 255, 0.5);
-  /* el position:fixed es para visualizar el footer antes 
-    y no tener que bajar hasta abajo del todo NO TOCAR PORFAVOR
-    ↓↓↓↓ */
   position: fixed;
   bottom: 0px;
 }
+
 .footer ul {
   display: flex;
   list-style: none;
@@ -134,22 +135,14 @@ li a:hover {
   border-radius: 25rem;
 }
 
-.burguesa {
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
 
-#burger {
-  display: none;
-}
+
 
 @media (max-width: 852px) {
-  .burguesa {
+  .navbar__bars {
     display: block;
+  }
+  .navbar__items{
+    display: none;
   }
 }
