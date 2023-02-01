@@ -56,27 +56,34 @@
 
 /*--- Main styles ---*/
 
-main {
+.main {
   display: flex;
+  position: absolute;
   flex-direction: column;
-  height: auto;
-  background-image: url(./imgcrito.jpeg);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vh;
+  margin: 20px 10px;
+
 }
 
-/* CARD---- */
+/*--- Card styles ---*/
 
-.card {
+
+.cards__container {
+  border: 2px solid red;
   font-weight: 500;
-  margin: 60px;
+  margin: auto;
   padding: 1rem;
-  height: auto;
-  width: auto;
+  height: 550px;
+  width: 750px;
   color: black;
   background-color: rgb(253, 253, 253, 0.8);
+}
+
+.card__item{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
 }
 
 span {
@@ -144,5 +151,17 @@ li a:hover {
   }
   .navbar__items{
     display: none;
+  }
+  .main{
+    width: 100%;
+    height: auto;
+  }
+  .card__item{
+    width: auto;
+    height: auto;
+  }
+  .cards__container{
+    width: auto;
+    height: auto;
   }
 }
