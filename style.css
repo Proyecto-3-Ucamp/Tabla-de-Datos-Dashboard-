@@ -19,7 +19,7 @@ a:hover{
 /* HEADER -------------------------------------------------------*/
 nav{
     position: fixed;
-    height: 50px;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
     margin: 5%;
 }
 
@@ -102,7 +102,10 @@ span {
     padding-top: 1rem;
     background-color: rgba(0, 0, 0, 0.8);
     color: rgba(255, 255, 255, 0.5);
-    
+    /* el position:fixed es para visualizar el footer antes 
+    y no tener que bajar hasta abajo del todo NO TOCAR PORFAVOR
+    ↓↓↓↓ */
+    position: fixed;
     bottom: 0px;
   }
   .footer ul {
