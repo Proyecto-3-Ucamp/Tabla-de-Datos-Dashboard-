@@ -180,3 +180,15 @@ li a:hover {
     height: auto;
   }
 }
+
+.bxl-twitter:hover{
+ color: #00acee;
+}
+
+.bxl-instagram-alt:hover{
+color: rgb(173, 94, 248);
+}
+
+.bxs-envelope:hover{
+color: yellow
+}

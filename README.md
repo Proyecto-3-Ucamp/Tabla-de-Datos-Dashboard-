@@ -1,15 +1,7 @@
-## omar perez: añado el app.js y modifico el api.js para que enlace con chart.js
+Proyecto 3 de Ucamp "Tablero de datos"
+https://proyecto-3-ucamp.github.io/Tabla-de-Datos-Dashboard-/
 
-## omar perez: modifico css iconos para que sea mas legible
+Esta pagina tiene como fin mostrar datos dinamicos y mostrar de manera grafica usando API´s.
 
-## alexander nieves: modifico para que el link a github funcione y abra en una nueva ventana
+Se creó un Dashboard en equipo con 2 personas a cargo del html, 2 con el css y 2 con javascript y 1 con el diseño responsivo, uso del fetch, import y export, promesas, y modulos para el funcionamiento de la pag web.
 
-## alexandere nieves: cambie el tamano del header para que no sea tan invasivo
-
-## moises hernandez(moyhdzg): creo el archivo api.js con funciones apiCard y apiCanva para creacion de Charts
-
-## moises hernandez(moyhdzg): cambio el nombre de readme a README en el archivo md para reconocimiento de markdowns
-
-## moises hernandez(moyhdzg): ajustes menores en sintaxis y limpieza de codigo.
-
-## moises hernandez(moyhdzg): agrego mis cambios al archivo de README para trazabilidad.
