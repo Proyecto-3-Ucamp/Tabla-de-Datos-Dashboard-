@@ -1,4 +1,3 @@
-
 // LLAMADA A LA API PARA DATOS DEL CANVA
 // chart solo puede crear un grafico por id sino da error por eso
 // tiene el id dinamico
@@ -42,11 +41,8 @@ const apiCanva = async (id) => {
     }
   };
   
-  
-  
-  
+    
   //LLAMADA A LA API PARA DATOS DEL CARD
-  
   export const apiCard = async () => {
     let response = await fetch("https://api.coincap.io/v2/assets");
     let data = await response.json();
