@@ -53,7 +53,7 @@ const apiCanva = async (id) => {
     try {
       if (data) {
       //  desestructuramos el objeto
-        data.data.slice(0,20).forEach(
+        data.data.slice(0,50).forEach(
           ({ symbol, name, rank, priceUsd, supply, changePercent24Hr,id }) => {
             
             // creamos un div por cada elemento devuelto de la api añado el canvas
