@@ -57,7 +57,7 @@
 
 .navbar__link:hover{
   font-size: 1.35em;
-  color: yellow;
+  color: blue;
   cursor: pointer;
 }
 
